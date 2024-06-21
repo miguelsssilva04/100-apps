@@ -1,3 +1,3 @@
-#100 apps
-The goal on this repository is to gain experience on frontend coding. On HTML, CSS and mainly JS.
-I did not create this code! I´m just learning by following along other person and trying to understand what they are coding.
+#100 apps as fast as possible
+The code on this apps werent created by me. I'm just following other person and trying to understand what they are doing.
+The goal on this challenge is to gain some experience on HTML, CSS and specially JS, to then jump into my own products!
