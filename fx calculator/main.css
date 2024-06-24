@@ -13,9 +13,43 @@ body{
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    font-family: 'PT Sans', sans-serif;
+}
+
+body h1{
+    color: #fff;
+    margin-bottom: 30px;
+    letter-spacing: 2.5px;
+    font-size: 40px;
 }
 
 .container{
     background-color: #fff;
-    padding: ;
+    padding: 25px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-radius: 200px;
+    width: 400px;
+}
+
+#choice-box{
+    display: flex;
+    align-items: center;
+    width: 300px;
+    justify-content: space-between;
+}
+
+#choice-box label{
+    letter-spacing: 0.75px;
+    font-weight: 500;
+}
+
+#choice-box button{
+    font-size: 20px;
+}
+
+#options{
+    display: none;
 }
