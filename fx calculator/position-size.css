@@ -1,0 +1,56 @@
+#window-container{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.window{
+    width: 538px;
+    height: 700px;
+    background-color: #d8d8d8;
+    border-radius: 30px;
+    position: fixed;
+    z-index: 2;
+}
+
+.window-header{
+    height: 50px;
+    background-color: #616161;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    width: 538px;
+    cursor: pointer;
+}
+
+#position-size-calculator-window{
+    display: none;
+}
+
+.x-div{
+    height: 100%;
+    width: 70px;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+}
+
+.x-div:hover{
+    background-color: #AC0000;
+    height: 100%;
+    width: 70px;
+    border-top-right-radius: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    text-decoration: none;
+    font-size: 28px;
+}

@@ -7,20 +7,31 @@
     <title>Ultimate Forex Calculator</title>
     <link rel="stylesheet" href="main.css">
     <link href="https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="position-size.css">
 </head>
 <body>
-    <h1>Ultimate Forex Calculator</h1>
     <div class="container">
-        <div id="choice-box">
-            <label>Select Calculator</label>
-            <button class="fa-solid fa-chevron-down" id="dropdown-Button"></button>
+        <h1>Ultimate Forex Calculator</h1>
+        <div class="container-bar">
+            <div id="choice-box">
+                <label>Select Calculator</label>
+                <button class="fa-solid fa-chevron-down" id="dropdown-Button"></button>
+            </div>
+            <div id="options">
+                <button class="choice-calculator" id="position-size-calculator">Position Size Calculator</button>
+            </div>
         </div>
-        <div id="options">
-            <button class="choice-calculator" id="position-size-calculator">Position Size Calculator</button>
+    </div>
+    <div class="window-container" id="window-container">
+        <div class="window" id="position-size-calculator-window" draggable="false">
+            <div class="window-header" id="position-size-calculator-window-header" draggable="false">
+                <a href="#" class="x-div"><i class="fa-solid fa-xmark"></i></a>
+            </div>
         </div>
     </div>
     
 <script src="main.js"></script>
+<script src="position-size.js"></script>
 <script src="https://kit.fontawesome.com/7c8801c017.js" crossorigin="anonymous"></script>
 </body>
 </html>
