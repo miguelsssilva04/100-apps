@@ -27,6 +27,27 @@
             <div class="window-header" id="position-size-calculator-window-header" draggable="false">
                 <a href="#" class="x-div"><i class="fa-solid fa-xmark"></i></a>
             </div>
+            <form id="psc-inputs">
+                <select id="currency-pair" name="currencyPair" class="inputs">
+                    <option value="USD">USD</option>
+                    <option value="EUR">EUR</option>
+                    <option value="GBP">GBP</option> 
+                </select>
+                <select name="accountCurrency" id="account-currency" class="inputs">
+                    <option value="eurusd">EUR/USD</option>
+                    <option value="gbpusd">GBP/USD</option>
+                    <option value="audusd">AUD/USD</option>
+                    <option value="nzdusd">NZD/USD</option>
+                    <option value="usdjpy">USD/JPY</option>
+                    <option value="usdchf">USD/CHF</option>
+                    <option value="usdcad">USD/CAD</option>
+                </select>
+                <input type="number" id="account-size" name="Account Size" placeholder="Account Size" class="inputs">
+                <input type="number" id="rr-ratio-%" name="Risk Ratio" placeholder="Risk Ratio %" class="inputs">
+                <input type="number" id="sl-pips" name="SL Pips" placeholder="StopLoss in Pips" class="inputs">
+                <input type="number" id="trade-size" name="Trade Lot Size" placeholder="Trade Lot Size" class="inputs">
+                <button id="calculate-position">Calculate</button>
+            </form>
         </div>
     </div>
     
