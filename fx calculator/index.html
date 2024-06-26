@@ -11,6 +11,7 @@
 </head>
 <body>
     <div class="container">
+        <i class="fa-solid fa-chart-simple"></i>
         <h1>Ultimate Forex Calculator</h1>
         <div class="container-bar">
             <div id="choice-box">
@@ -25,9 +26,11 @@
     <div class="window-container" id="window-container">
         <div class="window" id="position-size-calculator-window" draggable="false">
             <div class="window-header" id="position-size-calculator-window-header" draggable="false">
+                <h3>Position Size Calculator</h3>
                 <a href="#" class="x-div"><i class="fa-solid fa-xmark"></i></a>
             </div>
             <form id="psc-inputs">
+                <h3>Values:</h3>
                 <select id="currency-pair" name="currencyPair" class="inputs">
                     <option value="USD">USD</option>
                     <option value="EUR">EUR</option>
@@ -47,6 +50,8 @@
                 <input type="number" id="sl-pips" name="SL Pips" placeholder="StopLoss in Pips" class="inputs">
                 <input type="number" id="trade-size" name="Trade Lot Size" placeholder="Trade Lot Size" class="inputs">
                 <button id="calculate-position">Calculate</button>
+                <h3 id="position-size-title">Position Size:</h3>
+                <p id="calculator-value"></p>
             </form>
         </div>
     </div>

@@ -23,13 +23,19 @@
     border-top-right-radius: 30px;
     display: flex;
     align-items: center;
-    justify-content: end;
+    justify-content: space-between;
     width: 538px;
     cursor: pointer;
 }
 
+.window-header h3{
+    color: #fff;
+    margin-left: 30px;
+    letter-spacing: 1.5px;
+}
+
 #position-size-calculator-window{
-  
+  display: flex;
 }
 
 .x-div{
@@ -65,7 +71,21 @@
     justify-content: center;
     flex-direction: column;
     margin: 50px;
+    margin-top: 25px;
     gap: 20px;
+}
+
+#psc-inputs h3{
+    letter-spacing: 1px;
+    user-select: none;
+}
+
+#position-size-title{
+    display: flex;
+}
+
+#calculator-value{
+    display: flex;
 }
 
 .inputs{
@@ -85,4 +105,10 @@
 
 #calculate-position:hover{
     background-color: #1317228e;
+}
+
+.container i{
+    font-size: 100px;
+    color: #fff;
+    margin-bottom: 15px;
 }
